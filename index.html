@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Rezende | Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">Thiago<span>.</span>Dev</a>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#education">Formação</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">Disponivel para oportunidades</span>
+            <h1>
+                Front-end<br>
+                <span class="highlight">Developer</span>
+            </h1>
+            <p class="hero-subtitle">
+                Desenvolvedor com experiência em sistemas corporativos.
+                Go, React, Next.js, APIs REST, autenticação e banco de dados relacional.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Vamos conversar</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#projects" class="btn btn-secondary">Ver projetos</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="bento-item bento-1">Linux</div>
+            <div class="bento-item bento-2">Python</div>
+            <div class="bento-item bento-3">TS</div>
+            <div class="bento-item bento-4">API</div>
+            <div class="bento-item bento-5">DB</div>
+            <div class="bento-item bento-6">Deploy</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <span class="section-tag">Sobre mim</span>
+        <div class="about-grid">
+            <div class="about-image">
+                <div class="about-image-frame">
+                    <img src="about.svg" alt="Thiago Rezende" class="about-svg">
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>Desenvolvendo sistemas que impactam</h3>
+                <p>
+                    Desenvolvedor Full Stack com experiência prática no desenvolvimento
+                    e manutenção de sistemas corporativos em ambiente de produção.
+                </p>
+                <p>
+                    Atuação com Go no backend, React e Next.js no frontend, construção
+                    de APIs REST, implementação de regras de negócio, autenticação baseada
+                    em papéis e integração com banco de dados relacional.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">React</div>
+                        <div class="stat-label">Frontend</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">TypeScript</div>
+                        <div class="stat-label">Type Safe</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Next.js</div>
+                        <div class="stat-label">Framework</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <span class="section-tag">Especialidades</span>
+        <h2 class="section-title">Skills & Tecnologias</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon"><i data-lucide="atom"></i></div>
+                <h3>Front-end</h3>
+                <p>Interfaces responsivas e componentizadas com foco em experiência do usuário.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Next.js</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Material UI</span>
+                    <span class="skill-tag">Chakra UI</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i data-lucide="wrench"></i></div>
+                <h3>Back-end</h3>
+                <p>APIs REST e sistemas robustos com Node.js e Nest.js.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Nest.js</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">Go</span>
+                    <span class="skill-tag">RBAC</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i data-lucide="database"></i></div>
+                <h3>Database & ORM</h3>
+                <p>Banco de dados relacionais e modelagem de dados.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Prisma</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i data-lucide="rocket"></i></div>
+                <h3>DevOps & CI/CD</h3>
+                <p>Deploy automatizado e gestão de pipelines de desenvolvimento.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub Actions</span>
+                    <span class="skill-tag">Azure DevOps</span>
+                    <span class="skill-tag">Vercel</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i data-lucide="clipboard-list"></i></div>
+                <h3>Metodologias</h3>
+                <p>Práticas ágeis e processos de desenvolvimento.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Scrum</span>
+                    <span class="skill-tag">Kanban</span>
+                    <span class="skill-tag">Code Review</span>
+                    <span class="skill-tag">Clean Code</span>
+                    <span class="skill-tag">Pair Programming</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <span class="section-tag">Portfólio</span>
+        <h2 class="section-title">Projetos em Destaque</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image"><i data-lucide="monitor"></i></div>
+                <div class="project-content">
+                    <h3>KeySys</h3>
+                    <p>Sistema corporativo de gestão empresarial com módulos de estoque, financeiro e relatórios.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>TypeScript</span>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://keysys.com.br/" target="_blank" class="project-link primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><i data-lucide="gamepad-2"></i></div>
+                <div class="project-content">
+                    <h3>ChilliPlay</h3>
+                    <p>Plataforma de jogos interativos com experiência imersiva e funcionalidades sociais.</p>
+                    <div class="project-tech">
+                        <span>Next.js</span>
+                        <span>React</span>
+                        <span>TypeScript</span>
+                        <span>Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://chilliplay.com.br/" target="_blank" class="project-link primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><i data-lucide="package"></i></div>
+                <div class="project-content">
+                    <h3>Balaio</h3>
+                    <p>Sistema de estoque e controle financeiro para gestão completa de inventário e finanças.</p>
+                    <div class="project-tech">
+                        <span>Go</span>
+                        <span>Next.js</span>
+                        <span>PostgreSQL</span>
+                        <span>Prisma</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link primary">Ver Demo</a>
+                        <a href="#" class="project-link secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <span class="section-tag">Carreira</span>
+        <h2 class="section-title">Experiência Profissional</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">Fev. 2024 - Presente</div>
+                <h3>Analista de Suporte de Sistemas & Desenvolvedor Front-end</h3>
+                <h4>DMSYS • Rio de Janeiro, RJ</h4>
+                <p>Atuação híbrida em suporte técnico de sistemas corporativos (ERP) e desenvolvimento front-end. Desenvolvimento e manutenção de interfaces web em React e TypeScript com code reviews. Construção de APIs REST em Node.js/Nest.js. Modelagem e implementação de sistema CRUD completo (Mural Lead). Implantação de pipelines CI/CD com GitHub Actions. Utilização de Azure DevOps e rituais Scrum.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Abr. 2024 - Jun. 2024</div>
+                <h3>Assistente de Sistemas</h3>
+                <h4>Make Distribuidora • Rio de Janeiro, RJ</h4>
+                <p>Suporte técnico e operacional de softwares corporativos. Code review e pair programming com equipe de desenvolvimento. Troubleshooting, diagnóstico de falhas e resolução de inconsistências em aplicações web e sistemas internos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" style="background: var(--paper-dark);">
+        <span class="section-tag">Formação</span>
+        <h2 class="section-title">Formação Acadêmica</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2024 - 2027</div>
+                <h3>Ciências da Computação</h3>
+                <h4>Estácio • Rio de Janeiro, RJ</h4>
+                <p>Graduação em andamento com foco em desenvolvimento de sistemas, algoritmos, estruturas de dados e tecnologias web modernas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <span class="section-tag" style="background: var(--accent-orange);">Contato</span>
+        <div class="contact-content">
+            <h2>Vamos trabalhar juntos?</h2>
+            <p>
+                Estou sempre aberto a novos desafios e oportunidades.
+                Se você tem um projeto em mente ou quer apenas trocar uma ideia,
+                entre em contato!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:thiagoliiveira@outlook.com" class="contact-link">
+                    <i data-lucide="mail"></i>
+                    <span>thiagoliiveira@outlook.com</span>
+                </a>
+                <a href="tel:+5521971570957" class="contact-link">
+                    <i data-lucide="phone"></i>
+                    <span>(21) 97157-0957</span>
+                </a>
+                <a href="https://www.linkedin.com/in/thiago-oliveira-1605223a0/" target="_blank" class="contact-link">
+                    <i data-lucide="linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">Thiago<span>.</span>Dev</div>
+        <p>© 2024 Thiago Rezende de Oliveira. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
